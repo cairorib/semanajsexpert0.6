@@ -39,7 +39,7 @@ async function routes(request, response){
         return stream.pipe(response) 
     }
     //files
-    if(method === 'GET'){
+    if(method === 'GET'){ 
         const  {
             stream,
             type 
